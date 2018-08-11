@@ -1,0 +1,13 @@
+{
+    "name": "armadietto_docker",
+    "version": "1.0.0",
+    "description": "Armadietto is a RemoteStorage server written for Node.js, all that on Docker",
+    "author": "laszl0 <laszlo.francisc.parajdi@gmail.com>",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js"
+    },
+    "dependencies": {
+      "armadietto": "^0.1.5"
+    }
+  }

@@ -1,0 +1,11 @@
+version: '3'
+services:
+  web:
+    build: .
+    ports:
+      - "5080:8000"
+    environment:
+      - SIGNUP=1
+      - SSL_PROXY=0
+    volumes:
+      - ./data:/usr/src/app/data
